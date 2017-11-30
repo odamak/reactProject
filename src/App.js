@@ -21,6 +21,8 @@ class App extends Component {
 
   	}) )
 
+    ContactsAPI.remove(contact)
+
   }
   render() {
     return (
